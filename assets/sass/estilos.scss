@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    "menu menu"
+    "header header"
+    "contenido lateral"
+    "footer footer";
+}
+
+.header{
+    grid-area: header;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.grid-menu{
+    grid-area: menu;
+    background-color: black;
+    font-size: 50px;
+    text-align: left;
+    padding-left: 64px;
+}
+.imghome{
+    margin-bottom: 11px ;
+}
+.contenido{
+    grid-area: contenido;
+    text-align: center;
+    font-size: 20px;
+}
+.lateral{
+    grid-area: lateral;
+    text-align: center;
+    margin-top: 25vh;
+}
+.pie{
+    grid-area: footer;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.copyright{
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 23px;
+    background-color: black;
+    color: white;
+}
+.title{
+    background-color: white;
+    height: 80px;
+    width: 100vw;
+    font-size: 80px;
+    text-align: left;
+    }
+.subtitle{
+    background-color: white;
+    font-size: 38px;
+    text-align: left;
+    background-image: url("../assets/img/apdpfoto.png");
+    background-repeat:no-repeat;
+    background-position-x: 400px;
+    background-position-y: center;
+    background-size: 5vw;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+nav a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif ;
+    color:white ;
+}
+nav li{
+    display:inline-block ;
+
+}
+.box{
+    display:inline-block ;
+    margin-right: 60px;
+}
+
+
+.descrip{
+    font-size: 5px;
+}
+.legend{
+    font-weight: bolder;
+}
+.lab{
+    font-weight: bold;
+}
+.li1{
+    font-size: x-large;
+}
+.servi{
+    font-size: xx-large;
+}
+.pie2{
+background-color: black;
+text-align: center;
+color: white;
+margin-top: 135px;
+}
+
+#pantalla-div{
+    display:flex;
+}
+.products{
+    width: 50vw;
+    height: 50vh;
+    list-style-type: disc;
+    margin-left: 1%;
+    
+
+}
+.img2{
+    width: 50vw;
+    height: 50vh;
+    padding-bottom: 500px;
+}
+
+input::placeholder{
+    color: black;
+}
+
